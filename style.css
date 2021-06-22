@@ -114,7 +114,8 @@ html {
 
 .home {
     display: flex;
-    background: url(img/banner-code.png) no-repeat center;
+    /* background: url(img/banner-code.png) no-repeat center; */
+    background: rgba(0, 0, 0, .9);
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
