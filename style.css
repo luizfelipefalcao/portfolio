@@ -624,6 +624,10 @@ footer {
     color: #fff;
 }
 
+footer span, a, ul, li {
+    font-size: 1em;
+}
+
 footer span a {
     color: #0e83b9;
     text-decoration: none;
