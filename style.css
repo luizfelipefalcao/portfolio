@@ -41,12 +41,12 @@ html {
 
 .navbar .logo a {
     color: #fff;
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 38px;
+    font-weight: 1000;
 }
 
 .navbar .logo a span {
-    color: #0e83b9;
+    color: #47b6e9;
     transition: all 0.3s ease;
 }
 
@@ -69,11 +69,11 @@ html {
 }
 
 .navbar .menu li a:hover{
-    color: #0e83b9;
+    color: #47b6e9;
 }
 
 .navbar.sticky .menu li a:hover {
-    color: #0e83b9;
+    color: #fff;
 }
 
 /* menu btn styling */
@@ -114,18 +114,13 @@ html {
 
 .home {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.9);
-    /* background: url(img/videocode.mp4) no-repeat center; */
+    background: url(img/banner-code.png) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
-}
-
-.home > video {
-    width: 100vw,
 }
 
 .home .max-width {
@@ -137,7 +132,7 @@ html {
 }
 
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -148,7 +143,7 @@ html {
 }
 
 .home .home-content .text-3 span{
-    color: #0e83b9;
+    color: #47b6e9;
     font-weight: 500;
 }
 
@@ -758,7 +753,7 @@ footer ul li a:hover {
         padding: 0 23px;
     }
     .home .home-content .text-2{
-        font-size: 60px;
+        font-size: 50px;
     }
     .home .home-content .text-3{
         font-size: 32px;
@@ -773,9 +768,12 @@ footer ul li a:hover {
 
 @media (max-width: 500px){
     .home .home-content .text-2{
-        font-size: 50px;
+        font-size: 45px;
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+    .max-width .logo a, span {
+        font-size: 30px
     }
 } 
