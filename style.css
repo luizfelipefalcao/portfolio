@@ -400,20 +400,36 @@ section .title::after {
     background: #0e83b9;
 }
 
-.skills-content .right .html::before {
-    width: 60%;
+.skills-content .right .js::before {
+    width: 70%;
 }
 
-.skills-content .right .css::before {
+.skills-content .right .react::before {
+    width: 70%;
+}
+
+.skills-content .right .next::before {
     width: 50%;
 }
 
-.skills-content .right .js::before {
-    width: 40%;
+.skills-content .right .fb::before {
+    width: 70%;
+}
+
+.skills-content .right .scss::before {
+    width: 80%;
+}
+
+.skills-content .right .mat::before {
+    width: 80%;
 }
 
 .skills-content .right .git::before {
-    width: 40%;
+    width: 80%;
+}
+
+.skills-content .right .scrum::before {
+    width: 80%;
 }
 
 /* teams section styling */
@@ -457,7 +473,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #0e83b9;
+    border: 4px solid #0e83b9;
     transition: all 0.3s ease;
 }
 
