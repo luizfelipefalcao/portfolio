@@ -296,6 +296,11 @@ section .title::after {
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.services .serv-content .card a, i {
+    color: #fff;
 }
 
 .services .serv-content .card:hover {
@@ -306,13 +311,26 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
+.services .serv-content .card .box .site-stack {
+    min-height: 5em;
+    max-height: max-content;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.services .serv-content .card .box .site-stack span {
+    font-size: .9em;
+    margin-right: 10px;
+} 
+
 .services .serv-content .card:hover .box {
     transform: scale(1.05);
 }
 
 .services .serv-content .card i {
     font-size: 50px;
-    color: #0e83b9;
+    color: #2aabe7;
     transition: color 0.3s ease;
 }
 
@@ -675,8 +693,8 @@ footer ul li a:hover {
 
 @media (max-width: 1104px){
     .about .about-content .left img {
-        height: 350px;
-        width: 350px;
+        height: 280px;
+        width: 280px;
     }
 }
 
