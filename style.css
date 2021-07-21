@@ -290,6 +290,7 @@ section .title::after {
 
 .services .serv-content .card {
     width: calc(33% - 20px);
+    min-height: 250px;
     background: #1d323c;
     text-align: center;
     border-radius: 6px;
@@ -309,6 +310,11 @@ section .title::after {
 
 .services .serv-content .card .box {
     transition: all 0.3s ease;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .services .serv-content .card .box .site-stack {
