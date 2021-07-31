@@ -317,6 +317,14 @@ section .title::after {
     justify-content: space-around;
 }
 
+.services .serv-content .card .box .arivanna {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .services .serv-content .card .box .site-stack {
     min-height: 5em;
     max-height: max-content;
